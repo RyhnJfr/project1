@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>LOGINFORM</title>
+        <meta charset="utf-8">
+        <link href="CSS/STYLE.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body dir="ltr">
+        <CENTER><button onclick="document.getElementById('id').style.display='block'" style="width:auto;font-size:30PX;margin-top:20%;">login </button></CENTER>
+        <div id="id" class="modal">
+          <span onclick="document.getElementById('id').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <form class="modal-content" action="PHP/ACTION.php" method="POST">
+            <div class="container_X"><center>
+              <h1>login</h1>
+
+                  <input type="text" id="f_name" name="fname" placeholder="نام خود را وارد کنید" required><br/>
+              
+            
+                  <input type="text" id="l_name" name="lname" placeholder="نام خانوادگی خود را وارد کنید" required><br/>
+                
+                  <input type="text" id="p_number" name="phone_number" placeholder="شماره تلفن خود را وارد کنید" required><br/>
+
+                  <input type="text" id="e_email" name="email" placeholder="ایمیل خود را وارد کنید" required><br/>
+
+              <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id').style.display='none'" class="cancelbtn">خروج</button>
+                <button type="submit" class="signupbtn" name="bnt_sing_in" >ثبت </button></center>
+              </div>
+            </div>
+          </form>
+        </div>
+</body>
+</html>

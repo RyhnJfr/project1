@@ -1,0 +1,50 @@
+* {box-sizing: border-box}
+  input[type=text], input[type=number],ri {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 1% 0.5%;
+    box-sizing: border-box;
+    border: none;
+    background-color:rgb(252, 248, 248);
+    color:black;
+    border-radius: 10px;
+    text-align:right;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 20px;
+    }
+button {
+  background-color: #b5c6ff;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.cancelbtn, .signupbtn {
+  float: center;
+  width: 15%;
+  font-size: 30px;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #001033;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #5c7eac;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 20px;
+}
